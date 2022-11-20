@@ -1,0 +1,258 @@
+body{
+    /*    font-family: 'Balsamiq Sans', cursive;*/
+    /*    font-family: 'Chelsea Market', cursive;*/
+    }
+    /*navbar starts here*/
+    .nav{
+        background-color:white;
+    }
+    .navbar-wrapper{
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+    .sticky {
+        position: fixed;
+        width: 100%;
+        left: 0;
+        top: 0;
+        background:rgba(246,242,241);
+        color: white;
+        z-index: 100;
+        border-top: 0;
+        transition: all 1.5s ease;
+        
+    }
+    .navbar-wrapper.sticky {
+        background-color: black;
+        color: white;
+    }
+    div.page {
+      min-height:1000px;
+      }
+    /*navbar ends here*/
+    
+    /*carousel starts here*/
+    .carousel-caption{
+        margin: 200px auto;
+        font-weight:300;
+        color:#3c3c3c;
+    
+    }
+    .carousel-caption button{
+        padding:10px 50px 10px 50px;
+        border-radius: 30px;
+    }
+    
+    *{
+    box-sizing: border-box;
+    }
+    header a{
+        font-size:1em;
+        font-family:'Balsamiq Sans', cursive;
+        padding-left: 50px;
+    }
+    header .navbar-light .navbar-brand i{
+        color; rgba(0,0,0,.5);
+    }
+    header .navbar-light .navbar-nav .nav-link:hover{
+        color: black;
+    }
+    header a>i{
+         color:#50c54c; 
+    }
+    
+    /*section-1*/
+    .section-1{
+        padding: 20px 0 ;
+    }
+    .section-1 .row .col-md-6 .pray img{
+        opacity: 0.8;
+        width: 520px;
+        height:550px;
+        border-radius: 0.2em;
+    }
+    .section-1 .row .col-md-6 last-child{
+        position: relative;
+    }
+    .section-1 .row .col-md-6 .panel{
+        position: absolute;
+        top:7vmin;
+        left: -18vmin;
+        background: white;
+        border-radius: 3px;
+        text-align: left;
+        padding: 13vmin 5vmin 20vmin 10vmin;
+        box-shadow: 0px 25px 42px rgba(0,0,0,0.2);
+        font-family: 'Balsamiq Sans', cursive;
+        z-index: 1;
+    }
+    .section-1 .row .col-md-6 .panel h1{
+        padding: 10px;
+        font-weight: bold;
+        font-size: 35px;
+    }
+    .section-1 .row .col-md-6 .panel p{
+    color: rgba(0,0,0,0.5);
+    }
+    
+    /*section2*/
+    .cover{
+        width: 100%;
+        height: 55vmin;
+        background: url("../images/people-silhouette-during-sunset-853168.jpg");
+        background-position: -25rem -19rem;
+        background-size: 150%;
+        position: relative;
+    }
+    .cover .content{
+        background: rgba(0,0,0,0.3);
+        height: 100%;
+        width: 100%;
+        padding-top: 19vmin;
+    }
+    .cover .content h1{
+        color:#e5e5e5;
+        font-size: 6vmin;
+        font-family: 'Chelsea Market', cursive;
+        }
+    .cover .content p{
+        font-size:2.5vmin;
+        color: #e5e5e5;
+    }
+    .numbers .rect{
+        position: relative;
+        z-index: 1;
+        background: #e5e5e5;
+        width: 17rem;
+        height: 12rem;
+        padding-top: 3.5vmin;
+        margin: 1rem;
+        border-radius: .5em;
+        box-shadow:1px 2px 50px 0px #78ff34; 
+        text-align: center;
+    }
+    .numbers{
+        margin-top: -15vmin;
+    }
+    .numbers .rect h1{
+        font-size: 5rem;
+        color:#50c54c;
+    }
+    .numbers .rect p{
+        font-family: 'Chelsea Market', cursive;;
+    }
+    .purchase h1{
+        padding-top:15vmin;
+        padding-bottom: 0.1em;
+        font-family: 'Lobster', cursive;
+    }
+    .purchase p{
+        font-size: 2.4vmin;
+        padding-bottom: 10vmin;
+        color:#555555;
+    }
+    
+    .purchase .cards .card{
+        margin: 3vmin;
+    }
+    .cards div{
+        padding: 0;
+        margin: 0;
+    }
+    .cards .card-title{
+        background: rgba(200,241,241,0.199);
+        padding: 1.4rem 2.5rem;
+    }
+    .cards .card a{
+    color: black;
+    }
+    .cards i {
+        color: black;
+    }
+    
+    /*section-3*/
+    .section-3{
+        height: 60vmin;
+        margin-top: 15vmin;
+        background: 	#78ff34;
+    }
+    .section-3 .col-md-12 h1{
+        padding: 2em 0 0.5em 0;
+        font-size: 6vmin;
+        color: whitesmoke;
+         font-family: 'Chelsea Market', cursive;;
+    }
+    .section-3 .col-md-12 p{
+        padding: 0.4em;
+        padding-bottom: 2em;
+        color:white;
+    }
+    .section-3 .desktop{
+        background:whitesmoke;
+        display: inline-block;
+        border-radius: 3em;
+        padding: 2vmin 4.5vmin;
+        margin: 1em;
+    }
+    .section-3 .desktop h3{
+        font-size: 4vmin;
+    }
+    .section-3 .desktop p{
+        font-size: 2vmin;
+    }
+    /*section-4*/
+    .section-4 .container h1{
+        font-size: 6vmin;
+        padding-top: 14vmin;
+        font-weight: bold;
+    }
+    .section-4 .team{
+        padding: 10vmin 4vmin;
+    }
+    .section-4 .card{
+        width: 22rem;
+        margin-top: 5vmin;
+    }
+    .section-4 .card .card-text{
+        padding: 0.5em;
+    }
+    .section-4 .card .card-body a{
+        font-size: 1.5em;
+    }
+    .section-4 .carousel-item{
+        padding-left: 3rem;
+    }
+    .border-radius{
+        border-radius: 240px;
+        width: 60%;
+    }
+    .section-4 .card img{
+        padding-top: 2vmin;
+    }
+    
+    /*footer*/
+    footer{
+        background: rgba(0,0,0,0.7);
+        overflow-x: hidden;
+        padding: 14vmin 18vmin;
+    }
+    footer p>span{
+        color:#78ff34;
+    }
+    footer input{
+        border: none !important;
+    }
+    footer input:placeholder{
+        color:white !important;
+    }
+    footer .input-group .input-group-text{
+        background:#78ff34;
+        border: none;
+    }
+    footer .column{
+        color: #78ff34;
+    }
+    footer .column i{
+        padding: 1vmin;
+    }
